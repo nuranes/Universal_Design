@@ -1,0 +1,66 @@
+#container{
+    width: 1008px;
+    margin: auto;
+}
+
+/*----mainPageHeader----*/
+#mainPageHeader{
+    height: 4em;
+}
+
+#logo{
+    font-size: 2em;
+    padding-top: 0.7em;
+    display: block;
+    color: rgb(30, 30, 30); /*Best color for text, not black*/
+    font-family: arial, helvetica, sans-serif;
+}/*----end mainPageHeader----*/
+
+/*----mainContant----*/
+#mainContent{
+    margin-top: 30px;
+}
+
+#banner{
+    height: 300px;
+    background-color: rgb(200, 0, 60);
+}
+
+/*----978gs----*/
+.col{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+.col-6 {
+    width: 474px;
+    height: 230px;
+    float: left;
+    background-color: rgb(30, 30, 30);
+}/*----end 978gs----*/
+
+/*----Text----*/
+.txt{
+    color: rgb(255, 255, 255);
+    font-family: arial, helvetica, sans-serif;
+    display: block;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.7em;
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h3{
+    font-size: 2em; /* 3em;*/
+    line-height: 230px; /*Middle vertical: Same as article height*/
+}/*----end Text----*/
+/*----endmainContant----*/
+
+/*----Actions----*/
+.col-6:hover{
+    background-color: rgb(200, 200, 200);
+}/*----end Actions----*/
